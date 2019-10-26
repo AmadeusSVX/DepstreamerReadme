@@ -4,11 +4,11 @@
 
 http://depstreamer.shop/live.html
 
-##PC, スマートフォン環境の場合
+## PC, スマートフォン環境の場合
 	「Start 3D」ボタンをクリックして視聴してください。マウスの左右ボタンドラッグで視点の回転や移動、
 	スクロールホイールで拡大、縮小が可能です
 	
-##各種VR, AR(MR)環境の場合
+## 各種VR, AR(MR)環境の場合
 	VR対応ブラウザ上で「Start VR」ボタンをクリックして視聴してください。ブラウザのウィンドウ下端に「Enter VR」
 	というボタンがでたら、そのボタンもクリックすると没入モードに切り替わります。
 	「VR Not Found」と表示される場合は、何らかの理由により再生環境がVRに対応していない、あるいは適切に
@@ -19,20 +19,20 @@ http://depstreamer.shop/live.html
 	
 	※なお、HoloLensのEdgeブラウザはデフォルトでWebVR対応が無効にされているため、下記の手順で有効化が必要になります。
 	
-##HoloLensのEdgeブラウザのWebVR有効化方法
+## HoloLensのEdgeブラウザのWebVR有効化方法
 	アドレスバーにabout:flagsと入力して、フラグ設定画面に移動してください。
 	一番下に「Enable WebVR」があるのでチェックしてください。
 	OSが最新の場合だとチェック無しでも動くようですが、動かない場合は上記の確認をお願いします。
 
-##動作確認環境
+## 動作確認環境
 	現時点では下記の環境でVRモードの動作を確認しています。他の環境でも動いた、動かないという方がいらっしゃれば、
 	報告いただけると大変ありがたいです。
 
-	・Windows MR + Edgeブラウザ
-	・HoloLens + Edgeブラウザ
-	・Oculus Quest + Oculusブラウザ
-	・Oculus Go + Oculusブラウザ（※移動不可）
-	・DaydreamVR + Chromeブラウザ（※Mirage Solo以外は移動不可）
-	・Magic Leap One + Heliosブラウザ（現時点では動作不可）
+	- Windows MR + Edgeブラウザ
+	- HoloLens + Edgeブラウザ
+	- Oculus Quest + Oculusブラウザ
+	- Oculus Go + Oculusブラウザ（※移動不可）
+	- DaydreamVR + Chromeブラウザ（※Mirage Solo以外は移動不可）
+	- Magic Leap One + Heliosブラウザ（現時点では動作不可）
 
 
