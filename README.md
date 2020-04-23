@@ -34,15 +34,15 @@ ARモードに切り替え後、カメラを床面に向けながら並進移動
 現時点では下記の環境でVRモードの動作を確認しています。他の環境でも動いた、動かないという方がいらっしゃれば、報告いただけると大変ありがたいです。  
 
 - 3Dモード
--- WebGL対応の各種ブラウザ（全ては確認できていません）
+　- WebGL対応の各種ブラウザ（全ては確認できていません）
 
 - VRモード
--- Windows MR + Edgeブラウザ
--- HoloLens + Edgeブラウザ
--- Oculus Quest + Oculusブラウザ
--- Oculus Go + Oculusブラウザ（※移動不可）
--- DaydreamVR + Chromeブラウザ（※Mirage Solo以外は移動不可）
--- Magic Leap 1 + Helioブラウザ
+　- Windows MR + Edgeブラウザ
+　- HoloLens + Edgeブラウザ
+　- Oculus Quest + Oculusブラウザ
+　- Oculus Go + Oculusブラウザ（※移動不可）
+　- DaydreamVR + Chromeブラウザ（※Mirage Solo以外は移動不可）
+　- Magic Leap 1 + Helioブラウザ
 
 - ARモード
--- Android ARCore + Chromeブラウザ (Google Pixelで確認済)
+　- Android ARCore + Chromeブラウザ (Google Pixelで確認済)
