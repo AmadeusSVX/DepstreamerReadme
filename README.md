@@ -18,8 +18,8 @@ Edgeブラウザ上で「Start HoloLens」ボタンをクリックして視聴�
 ## HoloLensのEdgeブラウザのWebVR有効化方法
 アドレスバーにabout:flagsと入力して、フラグ設定画面に移動してください。一番下に「Enable WebVR」があるのでチェックしてください。OSが最新の場合だとチェック無しでも動くようですが、動かない場合は上記の設定をお願いします。  
 
-## ARCore対応Android環境の場合
-ARCoreに対応したAndroid端末のChrome上で「Start AR」ボタンをクリックして視聴してください。ブラウザのウィンドウ下端に「ENTER AR」というボタンが表示されたら、そのボタンもクリックするとARモードに切り替わります。「AR NOT SUPPORTED」と表示される場合は、Android端末がARCoreに対応していない、Chromeブラウザが最新ではない、あるいは適切に設定されていない可能性があります。  
+## ARCore対応AndroidもしくはARKit対応iOS環境の場合
+ARCoreに対応したAndroid端末のChrome上、あるいはARKitに対応したiOS端末のWebXR Viewerで「Start AR」ボタンをクリックして視聴してください。ブラウザのウィンドウ下端に「ENTER AR」というボタンが表示されたら、そのボタンもクリックするとARモードに切り替わります。「AR NOT SUPPORTED」と表示される場合は、Android端末がARCoreに対応していない、Chromeブラウザが最新ではない、あるいは適切に設定されていない可能性があります。  
 ARモードに切り替え後、カメラを床面に向けながら並進移動させて床面の検出を行ってください。床面が検出されたら正面に円形のレチクル（印）が出現するので、
 タップするとその位置に3D動画が出現します。
 
@@ -33,7 +33,6 @@ ARモードに切り替え後、カメラを床面に向けながら並進移動
 
 - 3Dモード
 	- WebGL対応の各種ブラウザ（全ては確認できていません）
-	- ※iOS環境だと表示が乱れて正常に視聴できない症状を確認しています
 - VRモード
 	- Windows MR + Edgeブラウザ
 	- Oculus Quest + Oculusブラウザ
@@ -43,6 +42,7 @@ ARモードに切り替え後、カメラを床面に向けながら並進移動
 
 - ARモード
 	- Android ARCore + Chromeブラウザ (Google Pixelで確認済)
-	
+	- iOS ARKit + WebXR Viewer（iPad 第6世代で確認済。WebXR Viewer以外のブラウザでは動作しません）
+
 - HoloLensモード (実質VRモードですが、最新のThree.jsでは動作しないため、旧実装を使用しています)
 	- HoloLens + Edgeブラウザ　(※光学シースルーによるAR環境になります)
